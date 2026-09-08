@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this code and the associated manuscript when using these results."
+title: "Certifying Hidden Dissipation from Observed Current Fluctuations: Code and Data"
+type: software
+authors:
+  - family-names: Roman
+    given-names: Ahmed
+version: 1.0.0
+repository-code: "https://github.com/AhmedHRoman/Roman-Numerals"
+license: MIT
+date-released: 2026-09-08
+abstract: "Code and synthetic data for covariance-based certification of quadratic current costs in partially observed Markov networks."
