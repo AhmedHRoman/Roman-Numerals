@@ -1,0 +1,138 @@
+{
+  "python_syntax_checks": 6,
+  "ring_covariance_check": "passed",
+  "synthetic": {
+    "sigma": 0.3040478473960032,
+    "covariance": 0.27391103401331524,
+    "hybrid": 0.27579549415627264,
+    "covariance_over_sigma": 0.9008813460092132,
+    "hybrid_over_sigma": 0.90707925255286,
+    "per_edge_over_sigma": 0.2673219513458165,
+    "best_single_edge_over_sigma": 0.5059805827365662,
+    "fixed_block_limit": {
+      "8": 0.24933291372644664,
+      "16": 0.2615681982748436,
+      "32": 0.26840182208736724,
+      "40": 0.2698334993469957,
+      "64": 0.27202419475374456,
+      "128": 0.2738906293652127,
+      "1000": 0.27554948325464484
+    }
+  },
+  "finite_window_tilted_generator_check": "passed",
+  "torus_saved_12_of_18_fraction": 0.9354455129901147,
+  "torus_all_12_of_18_fraction": 0.9409870439166506,
+  "current_specific_unscreening_is_not_global": {
+    "gamma": 0.0,
+    "observed": [
+      0
+    ],
+    "M_completion": 0.0877390326209236,
+    "raw_completion": 0.1000000000000014
+  },
+  "panel_B_reproduction": [
+    {
+      "gamma": 0.1,
+      "covariance_relative_error": 3.081083323871211e-16,
+      "hybrid_full": 0.9062064575350744,
+      "Bmax_full": 1.0
+    },
+    {
+      "gamma": 0.2,
+      "covariance_relative_error": 3.775002773102528e-16,
+      "hybrid_full": 0.8404015151732127,
+      "Bmax_full": 1.0
+    },
+    {
+      "gamma": 0.3,
+      "covariance_relative_error": 7.354984499367045e-16,
+      "hybrid_full": 0.7364893200697774,
+      "Bmax_full": 1.0
+    },
+    {
+      "gamma": 0.4,
+      "covariance_relative_error": 2.7911515092699097e-16,
+      "hybrid_full": 0.6920807152839767,
+      "Bmax_full": 1.0
+    },
+    {
+      "gamma": 0.5,
+      "covariance_relative_error": 3.282515064038968e-16,
+      "hybrid_full": 0.6338118029318541,
+      "Bmax_full": 1.0
+    }
+  ],
+  "random_network_checks": {
+    "networks": 100,
+    "max_covariance_relative_error": 5.512415451791769e-15,
+    "bounds_monotonicity_and_observability": "passed"
+  },
+  "kinesin": {
+    "stall_pN": 7.194810229698305,
+    "sigma_stall": 331.9164732314049,
+    "covariance_bound_stall": 45.81677960154495,
+    "mechanical_bound_stall": 2.6099208212389043e-24,
+    "hydrolysis_per_second": 9.812632315585178,
+    "max_covariance_relative_error": 4.780003894637744e-13,
+    "fixed_50s_block_limit": 45.679304144230684,
+    "covariance_eigenvalues": [
+      0.8145201679559171,
+      7.60609454911994
+    ]
+  },
+  "kinesin_rate_provenance": {
+    "code_k65": 0.02,
+    "code_k16": 0.025510204081632654,
+    "table_fixed_k16": 0.02,
+    "table_balance_derived_k65": 0.025510204081632654,
+    "table_convention_stall_pN": 7.194810229697825,
+    "table_convention_sigma": 331.9097507486724,
+    "table_convention_covariance_bound": 45.813375184667635
+  },
+  "kinesin_inset_check": {
+    "status": "passed",
+    "ylim": [
+      -2,
+      82.45527896325173
+    ],
+    "errorbar_tops": [
+      76.34748052152938,
+      60.09532741848636,
+      60.512403601622054,
+      50.735343292040156
+    ]
+  },
+  "kinesin_trajectory_check": {
+    "blocks": 1000,
+    "block_seconds": 50,
+    "empirical_covariance": [
+      [
+        6.321775355355353,
+        -3.029562502502502
+      ],
+      [
+        -3.029562502502502,
+        2.499532952952953
+      ]
+    ],
+    "theoretical_covariance": [
+      [
+        5.895858685877758,
+        -2.9479293354189844
+      ],
+      [
+        -2.947929335418984,
+        2.5247560311980997
+      ]
+    ],
+    "covariance_relative_error": 0.05778169192521018,
+    "empirical_observed_current": [
+      0.002220000000000003,
+      4.903539999999998
+    ],
+    "theoretical_observed_current": [
+      -2.773781204723491e-12,
+      4.906316157793968
+    ]
+  }
+}
