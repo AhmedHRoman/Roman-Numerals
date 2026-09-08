@@ -105,7 +105,7 @@ kappa_65 as balance-derived. This convention is documented in the supplement.
 - S. Liepelt and R. Lipowsky, *Operation modes of the molecular motor kinesin*,
   [Phys. Rev. E 79, 011917 (2009)](https://doi.org/10.1103/PhysRevE.79.011917).
 
-## Checks and attribution
+## Checks
 
 The independent audit uses a Poisson-equation/martingale covariance calculation
 rather than reusing the density-contraction formula. It tests 100 random
@@ -114,8 +114,6 @@ affinities, energy balance, and an independent finite-window covariance formula.
 It also performs a fresh stochastic check; this is not an exhaustive proof or
 a guarantee for arbitrary ill-conditioned numerical inputs.
 
-OpenAI's Codex was used for assistance with code checks, error-bar cleanup,
-editorial revisions, and packaging. Authorship remains with
-Ahmed Roman. See `CITATION.cff` for citation metadata.
+See `CITATION.cff` for citation metadata.
 
 This repository uses the MIT license selected by the author. See `LICENSE`.
